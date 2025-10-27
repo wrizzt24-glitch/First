@@ -1,0 +1,62 @@
+.entry-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+}
+
+.entry-card {
+  position: relative;
+  background: linear-gradient(145deg, rgba(12, 4, 32, 0.95), rgba(25, 9, 58, 0.92));
+  border: var(--border-width) solid var(--color-border-dark);
+  padding: var(--spacing-2);
+  box-shadow: inset 0 -4px 0 #1f1450, 0 6px 0 var(--color-border-dark);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+}
+
+.entry-card__header {
+  display: flex;
+  gap: var(--spacing-2);
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.entry-card__title {
+  font-size: var(--font-size-md);
+  color: var(--color-accent-green);
+}
+
+.entry-card__meta {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+}
+
+.entry-card__content {
+  font-size: var(--font-size-xs);
+  line-height: 1.6;
+  max-width: 70ch;
+  color: var(--color-text);
+}
+
+.entry-card__actions {
+  display: flex;
+  gap: var(--spacing-1);
+  flex-wrap: wrap;
+}
+
+.entry-card__tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-1);
+}
+
+.empty-state {
+  text-align: center;
+  padding: var(--spacing-4);
+  border: var(--border-width) dashed rgba(255, 90, 223, 0.45);
+  border-radius: 8px;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+}

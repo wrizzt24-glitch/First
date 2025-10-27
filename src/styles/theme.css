@@ -1,0 +1,33 @@
+:root {
+  color-scheme: dark;
+  --color-background: #08011a;
+  --color-surface: #110831;
+  --color-surface-alt: #1f0f4b;
+  --color-text: #f4f1ff;
+  --color-text-muted: #b2a7dd;
+  --color-accent-green: #6fffb3;
+  --color-accent-pink: #ff5adf;
+  --color-accent-blue: #5ad6ff;
+  --color-danger: #ff3a5b;
+  --color-border-dark: #05000f;
+  --color-border-light: #453e73;
+  --color-shadow: rgba(0, 0, 0, 0.6);
+  --font-pixel: 'Press Start 2P', system-ui;
+  --font-size-xs: 0.55rem;
+  --font-size-sm: 0.65rem;
+  --font-size-md: 0.8rem;
+  --font-size-lg: 1rem;
+  --spacing-1: 0.35rem;
+  --spacing-2: 0.7rem;
+  --spacing-3: 1rem;
+  --spacing-4: 1.5rem;
+  --border-width: 4px;
+  --transition-fast: 120ms ease-out;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --font-size-md: 0.9rem;
+    --font-size-lg: 1.2rem;
+  }
+}
